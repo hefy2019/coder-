@@ -25,6 +25,7 @@ public class Test {
 		// 通过容器获取test实例
 		TestDao tt = (TestDao) beanFactory.getBean("test");	//test为配置文件中的id
 		tt.sayHello();
+		System.out.println("您好，coder！");
 	}
 }
 
